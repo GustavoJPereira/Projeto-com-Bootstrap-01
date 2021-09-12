@@ -24,10 +24,10 @@
     <title>Dolla</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbarSupportedContent">
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <a class="navbar-brand" href="#">dolla</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,23 +37,274 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="#sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Descobrir</a>
+                        <a class="nav-link" href="#descobrir">Descobrir</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Serviços</a>
+                        <a class="nav-link" href="#servicos">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cadastrar</a>
+                        <a class="nav-link" href="#entrar">Entrar</a>
                     </li>
 
                 </ul>
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Entrar</button>
+                <button class="btn btn-success text-dark" type="submit">Entrar</button>
             </div>
         </nav>
+
+        <div class="mid">
+            <video autoplay muted loop>
+                <source src="images/1.mp4" type="video/mp4">
+            </video>
+            <div class="hero text-center">
+                <h2 class="text-light display-4 font-weight-bold">Banco Virtual Simples</h2>
+                <p class="text-light mx-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos excepturi
+                    eligendi facilis fugit iusto
+                    deserunt omnis aspernatur harum, tempora dolores libero eum hic nihil facere at aut, beatae porro
+                    exercitationem.</p>
+                <a class="text-dark" href="">Comece agora</a>
+            </div>
+        </div>
     </header>
+
+    <section id="sobre" class="about py-5">
+        <div class="row align-items-center container my-5 mx-auto">
+            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <h6>BANCO PREMIUM</h6>
+                <h2>Trasações Ilimitadas com 0 de taxa</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequatur? Ratione dolor, velit
+                    rerum, soluta culpa dolorem non minus nobis minima iste ab reprehenderit explicabo atque fuga
+                    similique? Unde, officiis.</p>
+                <a href="">Ler Mais</a>
+            </div>
+            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <img class="img-fluid" src="images/1.svg" alt="Um homem e uma mulher, os dois dentro de um carro">
+            </div>
+        </div>
+    </section>
+
+    <section id="descobrir" class="discovery py-5">
+        <div class="row align-items-center container my-5 mx-auto">
+            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <img class="img-fluid" src="images/2.png" alt="Um homem de terno em cima de um cofrinho">
+            </div>
+            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <h6>ACESSO ILIMITADO</h6>
+                <h2>Entre na sua conta a qual hora e em qualquer lugar</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequatur? Ratione dolor, velit
+                    rerum, soluta culpa dolorem non minus nobis minima iste ab reprehenderit explicabo atque fuga
+                    similique? Unde, officiis.</p>
+                <a href="">Ler Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="service py-5">
+        <div class="col mx-auto align-items-center my-5">
+            <div class="heading text-center pt-5">
+                <h2 class="font-weight-bold pb-5 text-light">Nossos Serviços</h2>
+            </div>
+            <div class="row mx-auto justify-content-center align-items-center text-align-center container">
+                <div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
+                    <img class="img-fluid w-75" src="images/1.svg">
+                    <h5 class="font-weight-bold pt-4">Reduza despesas</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequatur? Ratione dolor, velit
+                    </p>
+                </div>
+                <div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
+                    <img class="img-fluid w-75" src="images/2.png">
+                    <h5 class="font-weight-bold pt-4">Trabalhos Virtuais</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequatur? Ratione dolor, velit
+                    </p>
+                </div>
+                <div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
+                    <img class="img-fluid w-75" src="images/3.png">
+                    <h5 class="font-weight-bold pt-4">Benefícios Premium</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequatur? Ratione dolor, velit
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="entrar" class="sign py-5">
+        <div class="row align-items-center container my-5 mx-auto">
+            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <h6>ENTRE NO TIME</h6>
+                <h2>Criar uma conta é fácil e rápido</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequatur? Ratione dolor, velit
+                    rerum, soluta culpa dolorem non minus nobis minima iste ab reprehenderit explicabo atque fuga
+                    similique? Unde, officiis.</p>
+                <a href="">Ler Mais</a>
+            </div>
+            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <img class="img-fluid" src="images/4.png" alt="Um homem e uma mulher, os dois dentro de um carro">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4 text-light">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+  
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <hr>
+  
+    <!-- Call to action -->
+    <ul class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+        <h5 class="mb-1">Register for free</h5>
+      </li>
+      <li class="list-inline-item">
+        <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+      </li>
+    </ul>
+    <!-- Call to action -->
+  
+    <hr>
+  
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
