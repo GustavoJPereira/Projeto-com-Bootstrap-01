@@ -117,7 +117,6 @@ html {
     letter-spacing: 0.5px;
 }
 
-
 .about .text a {
     background-color: #00bf85;
     font-weight: 600;
@@ -154,7 +153,6 @@ html {
     letter-spacing: 0.5px;
 }
 
-
 .discovery .text a {
     background-color: #111;
     font-weight: 500;
@@ -178,8 +176,6 @@ html {
     padding: 2rem 1.5rem;
     border-radius: 7px;
 }
-
-.sign {}
 
 .sign .text {
     display: flex;
@@ -207,7 +203,6 @@ html {
     font-size: 1.1rem;
     letter-spacing: 0.5px;
 }
-
 
 .sign .text a {
     background-color: #111;
